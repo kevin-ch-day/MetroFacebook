@@ -4,8 +4,8 @@
  * in and the variable $loggedin is set to TRUE.
  */
 session_start();
-require_once 'includes\Database.inc';
-require_once 'includes\Functions.inc';
+require_once '../includes/Database.inc';
+require_once '../includes/Functions.inc';
 	
 echo "<!DOCTYPE html><html><head>";
 	

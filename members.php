@@ -1,5 +1,5 @@
 <?php
-require_once 'includes\header.inc';
+require_once 'includes/header.inc';
 if (!$loggedin){
 	die();
 }

@@ -1,5 +1,5 @@
 <?php
-require_once 'includes\Header.inc';
+require_once '..\includes\Header.inc';
 echo "<br><span class='main'>Welcome to $appname,";
 if($loggedin){
 	echo " $user, you are logged in.";

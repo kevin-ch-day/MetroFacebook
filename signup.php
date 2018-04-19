@@ -1,5 +1,5 @@
 <?php
-require_once 'includes\Header.inc';
+require_once 'includes/Header.inc';
 echo <<<_END
 <script>
 function checkUser(user){

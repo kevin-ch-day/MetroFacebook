@@ -1,6 +1,6 @@
 <?php
-require_once 'includes\Database.inc';
-require_once 'includes\Functions.inc';
+require_once 'includes/Database.inc';
+require_once 'includes/Functions.inc';
 if (isset($_POST['user'])){
 	$user = sanitizeString($_POST['user']);
 	$result = queryMysql("SELECT * FROM members WHERE user='$user'");
